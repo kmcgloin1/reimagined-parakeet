@@ -1,4 +1,4 @@
-# ----- STA 5320: Final Project -----
+# ----- Wine Quality -----
 
 # Input variables (based on physicochemical tests):
 #  1 - fixed acidity (fa)
@@ -14,9 +14,6 @@
 #  11 - alcohol (alc)
 # Output variable (based on sensory data): 
 #  12 - quality (score between 0 and 10) (qual)
-
-# set the working directory
-setwd("~/Documents/CPP Grad/SPRING 2020/STA 5320/Final Project")
 
 # read in the two data sets
 wine.red <- read.csv("winequality-red.csv")
